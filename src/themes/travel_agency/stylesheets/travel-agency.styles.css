@@ -1,0 +1,207 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 7, 2016, 9:45:12 AM
+    Author     : hal9000
+*/
+/* line 3, ../sass/components/main_page.scss */
+.pane-system-main-menu {
+  color: red;
+  background: red;
+  font-size: 50px;
+}
+
+/* line 9, ../sass/components/main_page.scss */
+body {
+  color: red;
+  backgroud: red;
+  font-size: 50px;
+}
+
+/*.page-404-page {
+	@include clearfix;
+
+	[class="404-wrapper"],
+	[class="404-search-wrapper"],
+	.buttons-wrapper {
+		@include grid-row;
+		padding: {
+			right: $column-gutter/2;
+			left: $column-gutter/2;
+		}
+	}
+
+	[class="404-wrapper"] {
+		background: url("../image/404.png") no-repeat center 50px / 200px;
+
+		h1 {
+			padding: {
+				top: 180px;
+				bottom: 30px;
+			}
+			text-align: center;
+			font-size: rem-calc(30);
+		}
+	}
+
+	[class="404-search-wrapper"] {
+		position: relative;
+		margin-bottom: 30px;
+		
+		.form-item {
+			input[type="text"] {
+				height: 45px;
+				padding: {
+					right: rem-calc(55);
+					left: rem-calc(10);
+				}
+				font-size: rem-calc(13);
+				@include input-placeholder {
+					opacity: 1;
+				}
+				color: $dBlue3;
+				background-color: $lGray1;
+			}
+		}
+
+		.form-actions {
+			position: absolute;
+			top: 0;
+			right: 10px;
+
+			input[type="submit"] {
+				height: 45px;
+				width: 45px;
+				border: none;
+				text-indent: -9999px;
+				background: $lBlue1 url("../image/search_white.png") no-repeat center center;
+			}
+		}
+	}
+
+	.buttons-wrapper {
+		@include clearfix;
+		margin-bottom: 30px;
+	}
+	
+	.link-button {
+		text-align: center;
+		
+		a {
+			display: inline-block;
+			height: 45px;
+			line-height: 45px;
+			padding: {
+				right: rem-calc(20);
+				left: rem-calc(20);
+			}
+			font-family: 'ProximaNovaBold';
+			@include transition(color .2s, background-color .2s);
+		}
+
+		&.homepage a {
+			color: $white;
+			background-color: $lBlue1;
+			margin-bottom: 20px;
+		}
+
+		&.broken-link a {
+			color: $black;
+			background-color: $yellow1;
+		}
+	}
+}
+
+@media all and (min-width: $breakpoint-medium) {
+	.page-404-page {
+		[class="404-wrapper"] {
+			background: {
+				size: auto;
+				position: center 130px;
+			}
+
+			h1 {
+				padding: {
+					top: 360px;
+					bottom: 105px;
+				}
+				font-size: rem-calc(48);
+			}
+		}
+
+		[class="404-search-wrapper"] {
+			margin-bottom: 50px;
+
+			.form-item {
+				input[type="text"] {
+					height: 90px;
+					padding: {
+						right: rem-calc(140);
+						left: rem-calc(95);
+					}
+					font-size: rem-calc(26);
+					background: $lGray1 url("../image/search_404.png") no-repeat 35px 30px;
+				}
+			}
+
+			.form-actions {
+				top: 23px;
+				right: 40px;
+
+				input[type="submit"] {
+					cursor: pointer;
+					width: auto;
+					padding: {
+						right: rem-calc(20);
+						left: rem-calc(20);
+					}
+					text-indent: 0;
+					font: {
+						family: 'ProximaNovaBold';
+						size: rem-calc(16);
+					}
+					color: $white;
+					background-image: none;
+					@include transition(background-color .2s);
+				}
+			}
+		}
+
+		.buttons-wrapper {
+			margin-bottom: 140px;
+		}
+
+		.link-button {
+			@include grid-column(6);
+			
+			&.homepage a {
+				float: right;
+				margin-bottom: 0;
+			}
+			
+			&.broken-link a {
+				float: left;
+			}
+		}
+	}
+}
+
+@media all and (min-width: $breakpoint-large) {
+	.page-404-page {
+		[class="404-search-wrapper"] {
+			.form-actions {
+				input[type="submit"]:hover {
+					background-color: $yellow1;
+				}
+			}
+		}
+
+		.link-button a:hover {
+			color: $white;
+			background-color: $dBlue1;
+		}
+	}
+}*/

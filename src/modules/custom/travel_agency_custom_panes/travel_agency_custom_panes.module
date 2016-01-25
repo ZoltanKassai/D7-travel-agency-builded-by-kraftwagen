@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Contains custom panes for Travel Agency.
+ */
+
+/**
+ * Implements hook_ctools_plugin_api().
+ */
+/*function travel_agency_custom_panes_ctools_plugin_api($owner, $api) {
+  switch ("$owner:$api") {
+    case 'ctools:content_types':
+      return array('version' => '1');
+  }
+
+  return NULL;
+}*/
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function travel_agency_custom_panes_ctools_plugin_directory($owner, $plugin_type) {
+  switch ("$owner:$plugin_type") {
+    case 'ctools:content_types':
+    case 'ctools:access':
+      return "plugins/$owner/$plugin_type";
+  }
+
+  return NULL;
+}

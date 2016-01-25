@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Travel Agency Views feature.
+ */
+
+include_once 'travel_agency_views.features.inc';
