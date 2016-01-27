@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Travel Agency Structures feature.
+ */
+
+include_once 'travel_agency_structures.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Travel Agency Custom Content Types feature.
+ */
+
+include_once 'travel_agency_custom_content_types.features.inc';

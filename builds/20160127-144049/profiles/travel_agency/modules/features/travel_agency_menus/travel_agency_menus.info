@@ -1,0 +1,17 @@
+name = Travel Agency Menus
+description = Contains custom menus and menu items.
+core = 7.x
+package = Travel Agency
+version = 7.x-1.0
+dependencies[] = features
+dependencies[] = menu
+features[features_api][] = api:2
+features[menu_custom][] = main-menu
+features[menu_custom][] = menu-travel-manager
+features[menu_links][] = main-menu_customers:customers
+features[menu_links][] = main-menu_dashboard:dashboard
+features[menu_links][] = main-menu_travels:travels
+features[menu_links][] = menu-travel-manager_add-customer:admin/people/create
+features[menu_links][] = menu-travel-manager_add-travel:node/add/travel
+features[menu_links][] = menu-travel-manager_logout:user/logout
+project path = sites/all/modules/features
